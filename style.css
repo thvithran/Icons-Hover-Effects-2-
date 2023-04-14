@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+    background: darkkhaki;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    padding-top: 40px;
+}
+
+.text :hover{
+    color: rgb(7, 212, 178);
+    transition: color 0.5s;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkkhaki;
+}
+
+.icons a {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 70px;
+    display: inline-flex;
+    background: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 19px 12px rgba(20, 20, 20, 0.7);
+
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+
+    transition: background-position 0.7s;
+}
+
+.icons a:nth-child(1){
+    color:rgb(5, 180, 58);
+    background-image: linear-gradient(#f7f7f7 50%,rgb(5, 180, 58)50%);
+
+}
+.icons a:nth-child(2){
+    color:rgb(7, 17, 75);
+    background-image: linear-gradient(#fff 50%,rgb(7, 17, 75)50%);
+}
+.icons a:nth-child(3){
+    color:rgb(0, 0, 0);
+    background-image: linear-gradient(#fff 50%,#000000 50%);
+}
+
+.icons a:hover{
+    background-position: 0% 100%;
+
+}
